@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Desafio 2 - Promoção Especial</title>
+  <link rel="stylesheet" href="../css/styledesafio2.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Promoção Especial</h2>
+    <form id="formPromo" onsubmit="return verificarDesconto()">
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" min="0" required>
+
+      <label>
+        <input type="checkbox" id="estudante">
+        Sou estudante
+      </label>
+
+      <button type="submit">Verificar desconto</button>
+    </form>
+
+    <p id="mensagem"></p>
+  </div>
+
+  <script src="../javascript/scriptdesafio2.js"></script>
+</body>
+</html>

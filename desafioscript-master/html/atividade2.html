@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio1</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h2>Formulário de Inscrição</h2>
+
+    <form onsubmit="return validarSenhas()">
+        <label>Senha:</label><br>
+        <input type="password" id="senha1" required><br>
+
+        <label>Confirmar Senha:</label><br>
+        <input type="password" id="senha2" required><br><br>
+
+        <button type="submit">Inscrever</button>
+    </form>
+
+    <p id="mensagem" style="color:red;"></p>
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
