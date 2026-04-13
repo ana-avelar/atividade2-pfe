@@ -65,3 +65,19 @@ button:hover {
     font-weight: bold;
     font-size: 14px;
 }
+
+/* Celular */
+@media (max-width:480px) {
+    body {
+        font-size: 24px;
+        background-color: green;
+    }
+}
+
+/* Tablet */
+@media (min-width:481px) and (max-width:768px){
+    body{
+        font-size: 20px;
+        background-color: blue;
+    }
+}
